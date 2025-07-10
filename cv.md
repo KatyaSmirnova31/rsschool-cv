@@ -24,13 +24,20 @@ I really want to master the profession of a front-end developer. In the future, 
 
 ### **CODE EXAMPL**
 
-
-
+```
+function multiply(a, b) {
+  return a * b;
+}
+let result = multiply(5, 8);
+```
 
 ---------
 
 ### **JOB EXPERIENCE**
 
+**StressLess (learning project):** 
+
+#
 **12.2018–08.2020 - Private Trade Unitary Enterprise ElectroMarketPlus (*Lawyer*)**
         
 **Job responsibilities:**
