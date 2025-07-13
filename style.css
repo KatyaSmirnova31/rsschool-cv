@@ -1,1 +1,130 @@
-#Good morning, mir 
+@font-face {
+    font-family: 'Roboto';
+    src: url("assets/fonts/Roboto-Regular.ttf");
+  }
+  body {
+    font-family: 'Roboto';
+  }
+
+  html {
+    scroll-behavior: smooth;
+  }
+  
+  .nav-list {
+    justify-content: center;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    list-style: none;
+    background-color: steelblue;
+  }
+  
+  .nav-link {
+    padding: 0 30px;
+    line-height: 50px; 
+    transition: 0.3s;
+    text-decoration: none black;
+    color: black;
+  }
+    
+  
+  .link-with-pointer {
+    cursor: pointer;
+  }
+
+  .main-container {
+  display: flex;
+  gap: 50px;
+  }
+
+  .section {
+    width: 100%;
+  }
+  @media (max-width: 768px) {
+    .section {
+      width: 100%;
+    }
+  }
+  .section2 {
+    justify-content: center;
+  }
+  .colon1 {
+    background-color: lightsteelblue;
+  }
+  .colon2 {
+    top: 100px;
+  }
+
+  #profil {
+    margin: 100px 0 145px;
+  }
+  #Contact {
+    margin-bottom: 70px;
+  } 
+  #Education {
+    padding-left: 10px;
+    margin-bottom: 70px;
+  }
+  #Languages {
+    padding-left: 10px;
+    margin-bottom: 70px;
+  }
+  #About-me {
+    margin-bottom: 70px;
+  }
+  #Job-experience {
+    margin-bottom: 70px;
+  }
+  #Skills {
+    margin-bottom: 70px;
+  }
+  #Code-exampl {
+    margin-bottom: 70px;
+  }
+  .li2 {
+    text-decoration: none black;
+    color: black;
+  }
+  .rssicon {
+    height: 70px;
+    width: 100px;
+    animation: animation 2s infinite alternate;
+  }
+  
+  @keyframes animation {
+    from {
+      fill: rgb(8, 8, 8);
+    }
+    to {
+      fill: paleturquoise;
+    }
+  }
+
+  .footer-container {
+    margin: 0 auto;
+    display: flex; 
+    justify-content:space-around;
+    align-items: center;
+    background-color: steelblue;
+  }
+  .link1 {
+    color: black;
+  }
+    
+  .rss {
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin: 0 auto;
+    padding: 0 100px;
+    max-width: 1440px;
+  }
+
+  body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    min-height: 100vh;
+    margin: 0; 
+    padding: 0;
+    font-size: 20px;
+  }
