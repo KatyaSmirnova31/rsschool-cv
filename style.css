@@ -16,7 +16,7 @@
     text-align: center;
     align-items: center;
     list-style: none;
-    background-color: rgb(67, 128, 185);
+    background-color: steelblue;
   }
   
    .nav-link {
@@ -48,18 +48,29 @@
   .section2 {
     justify-content: center;
   }
+  .colon1 {
+    background-color: lightsteelblue;
+  }
   .colon2 {
     top: 100px;
   }
 
   #profil {
-    margin: 100px 0 100px;
+    margin: 100px 0 145px;
   }
-
-   .rssicon {
+  #Contact {
+    padding-left: 10px;
+  } 
+  #Education {
+    padding-left: 10px;
+  }
+  #Languages {
+    padding-left: 10px;
+  }
+  .rssicon {
     height: 70px;
     width: 100px;
-    animation: animation 3s infinite alternate;
+    animation: animation 2s infinite alternate;
   }
   
   @keyframes animation {
@@ -67,7 +78,7 @@
       fill: rgb(8, 8, 8);
     }
     to {
-      fill: rgb(67, 128, 185);
+      fill: paleturquoise;
     }
   }
 
@@ -76,6 +87,7 @@
     display: flex; 
     justify-content:space-around;
     align-items: center;
+    background-color: steelblue;
   }
   
     
@@ -94,4 +106,5 @@
     min-height: 100vh;
     margin: 0; 
     padding: 0;
+    font-size: 20px;
   }
