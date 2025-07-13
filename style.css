@@ -11,82 +11,87 @@
   }
   
   .nav-list {
+    justify-content: center;
     display: flex;
     text-align: center;
     align-items: center;
+    list-style: none;
+    background-color: rgb(67, 128, 185);
   }
   
-  .nav-list {
-    list-style: none;
-  }
-
-  .nav-link {
+   .nav-link {
     padding: 0 30px;
-    line-height: 50px;
-  }
-
-  .nav-link {
+    line-height: 50px; 
     transition: 0.3s;
+    text-decoration: none black;
+    color: black;
   }
 
+  
   .link-with-pointer {
     cursor: pointer;
   }
 
-
- .main-container {
-    display: grid;
-    grid-template-columns: 1fr 2fr;
+  .main-container {
+  display: flex;
+  gap: 50px;
   }
 
   .section {
-    width: 80%;
+    width: 100%;
   }
   @media (max-width: 768px) {
     .section {
       width: 100%;
     }
   }
+  .section2 {
+    justify-content: center;
+  }
+  .colon2 {
+    top: 100px;
+  }
 
-   body {
+  #profil {
+    margin: 100px 0 100px;
+  }
+
+   .rssicon {
+    height: 70px;
+    width: 100px;
+    animation: animation 3s infinite alternate;
+  }
+  
+  @keyframes animation {
+    from {
+      fill: rgb(8, 8, 8);
+    }
+    to {
+      fill: rgb(67, 128, 185);
+    }
+  }
+
+  .footer-container {
+    margin: 0 auto;
+    display: flex; 
+    justify-content:space-around;
+    align-items: center;
+  }
+  
+    
+  .rss {
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin: 0 auto;
+    padding: 0 100px;
+    max-width: 1440px;
+  }
+
+  body {
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
+    justify-content: center;
     min-height: 100vh;
     margin: 0; 
     padding: 0;
   }
-  
- 
-
-
-
-  * {
-    box-sizing: border-box;
-  }
-    
-
-
-  
-  
-  
-  .rss {
-    width: 100%;
-    height: 100vh;
-    background-size: contain;
-    background-repeat: no-repeat;
-    padding:0 100px;
-  }
-  
-  
-  .section-item {
-    position: relative;
-    padding-left: 30px;
-  }
-  
-  .section-item::before {
-    content: "";
-    position: absolute;
-    top: 8px;
-    left: 0px;
-    width: 10px;
