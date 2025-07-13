@@ -19,14 +19,14 @@
     background-color: steelblue;
   }
   
-   .nav-link {
+  .nav-link {
     padding: 0 30px;
     line-height: 50px; 
     transition: 0.3s;
     text-decoration: none black;
     color: black;
   }
-
+    
   
   .link-with-pointer {
     cursor: pointer;
@@ -60,12 +60,27 @@
   }
   #Contact {
     padding-left: 10px;
+    margin-bottom: 70px;
   } 
   #Education {
     padding-left: 10px;
+    margin-bottom: 70px;
   }
   #Languages {
     padding-left: 10px;
+    margin-bottom: 70px;
+  }
+  #About-me {
+    margin-bottom: 70px;
+  }
+  #Job-experience {
+    margin-bottom: 70px;
+  }
+  #Skills {
+    margin-bottom: 70px;
+  }
+  #Code-exampl {
+    margin-bottom: 70px;
   }
   .rssicon {
     height: 70px;
@@ -89,7 +104,9 @@
     align-items: center;
     background-color: steelblue;
   }
-  
+  .link1 {
+    color: black;
+  }
     
   .rss {
     background-size: contain;
