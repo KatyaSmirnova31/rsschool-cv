@@ -59,7 +59,6 @@
     margin: 100px 0 145px;
   }
   #Contact {
-    padding-left: 10px;
     margin-bottom: 70px;
   } 
   #Education {
@@ -81,6 +80,10 @@
   }
   #Code-exampl {
     margin-bottom: 70px;
+  }
+  .li2 {
+    text-decoration: none black;
+    color: black;
   }
   .rssicon {
     height: 70px;
