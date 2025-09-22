@@ -44,14 +44,26 @@ let result = multiply(5, 8);
 
 #
 **12.2018–08.2020 - Private Trade Unitary Enterprise ElectroMarketPlus (*Lawyer*)**
+
 **Job responsibilities:**
 * Full legal support of activities.
 * Full cycle of personnel records management (staff of 50 people).
 
 #
 **07.2017–12.2018 - Open Joint Stock Company Dobosnyanskoe (*Lawyer*)**
+
 **Job responsibilities:**
 * Visa for contracts, drafting protocols of disagreements and contracts, claims and litigation activities, work with accounts receivable and accounts payable.
 * Maintaining personnel records (staff of 200 people): military registration, pension assignment, work with the Social Security Fund (PU-1, PU-2, PU-3), drafting orders, maintaining personal files of employees, timesheets, granting vacations and much more.
 
 -----------
+
+### **EDUCATION**
+* **University:** Belarusian State Agricultural Academy. Jurisprudence. Lawyer (graduated 2017)
+* **Courses:** RS Schools Course «JavaScript/Front-end. Pre-school» (in progress)
+
+---------
+
+### **LANGUAGES**
+* English: A2 (Pre-Intermediate)    
+* Russian: Native
